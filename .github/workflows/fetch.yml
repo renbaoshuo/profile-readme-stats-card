@@ -1,0 +1,32 @@
+name: Fetch
+
+on:
+  schedule:
+    - cron: 0,30 * * * *
+
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    name: Fetch stats card img
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch
+        run: |
+          curl "https://github-readme-stats-bs.vercel.app/api/?username=renbaoshuo&show_icons=true&include_all_commits=true&count_private=true&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&hide_title=true&disable_animations=true&text_color=24292f&icon_color=57606a&bg_color=ffffff&border_color=d0d7de" -Ls -o github-readme-stats_renbaoshuo.light.svg
+          curl "https://github-readme-stats-bs.vercel.app/api/?username=renbaoshuo&show_icons=true&include_all_commits=true&count_private=true&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&hide_title=true&disable_animations=true&text_color=c9d1d9&icon_color=8b949e&bg_color=0d1117&border_color=30363d" -Ls -o github-readme-stats_renbaoshuo.dark.svg
+
+      - name: Commit & Push
+        run: |
+          git config --global user.name BaoshuoBot
+          git config --global user.email bot@baoshuo.dev
+
+          git add github-readme-stats_renbaoshuo.light.svg github-readme-stats_renbaoshuo.dark.svg
+
+          git commit -m "[${{ github.workflow }}] Upload on $(date '+%Y-%m-%d %H:%M:%S')"
+
+          git push
+          git push # Attempt
