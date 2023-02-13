@@ -29,7 +29,7 @@ jobs:
 
           git add github-readme-stats_renbaoshuo.light.svg github-readme-stats_renbaoshuo.dark.svg
 
-          git commit -m "[${{ github.workflow }}] Upload on $(date '+%Y-%m-%d %H:%M:%S')" || 1
+          git commit -m "[${{ github.workflow }}] Upload on $(date '+%Y-%m-%d %H:%M:%S')" || echo 1
 
           git push
           git push # Attempt
