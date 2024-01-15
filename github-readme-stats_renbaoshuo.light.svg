@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Baoshuo Ren's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 955, Total Commits  : 955, Total PRs: 360, Total PRs Reviewed: 61, Total Issues: 86, Total Discussions Answered: 3, Contributed to (last year): 36</desc>
+        <desc id="descId">Total Stars Earned: 955, Total Commits  : 955, Total PRs: 360, Total PRs Reviewed: 61, Total Issues: 86, Total Discussions Answered: 3, Contributed to (last year): 35</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -241,7 +241,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >36</text>
+      >35</text>
     </g>
   </g>
     </svg>
