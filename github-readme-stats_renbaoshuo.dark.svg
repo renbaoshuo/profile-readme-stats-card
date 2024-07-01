@@ -1,15 +1,15 @@
 
       <svg
         width="495"
-        height="190"
-        viewBox="0 0 495 190"
+        height="165"
+        viewBox="0 0 495 165"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Baoshuo Ren's GitHub Stats, Rank: S+</title>
-        <desc id="descId">Total Stars Earned: 201076, Total Commits  : 201076, Total Issues: 86, Total PRs: 365, Total PRs Reviewed: 282, Contributed to: 38</desc>
+        <title id="titleId">Baoshuo Ren's GitHub Stats, Rank: S</title>
+        <desc id="descId">Total Stars Earned: 990, Total Commits  : 990, Total Issues: 86, Total PRs: 365, Total PRs Reviewed: 282</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -66,7 +66,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 7.143154683921678e-14;
+        stroke-dashoffset: 54.86481996940972;
       }
     }
   
@@ -116,7 +116,7 @@
         >
           
     <g data-testid="rank-circle" 
-          transform="translate(400, 60)">
+          transform="translate(400, 47.5)">
         <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
         <g class="rank-text">
@@ -127,7 +127,7 @@
             dominant-baseline="central"
             text-anchor="middle"
           >
-            S+
+            S
           </text>
         </g>
       </g>
@@ -145,7 +145,7 @@
         x="175" 
         y="12.5" 
         data-testid="stars"
-      >201.1k</text>
+      >990</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -206,21 +206,6 @@
         y="12.5" 
         data-testid="prsreviewed"
       >282</text>
-    </g>
-  </g><g transform="translate(0, 125)">
-    <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
-    </svg>
-  
-      <text class="stat bold" x="25" y="12.5">Contributed to:</text>
-      <text 
-        class="stat" 
-        x="175" 
-        y="12.5" 
-        data-testid="contribs"
-      >38</text>
     </g>
   </g>
     </svg> 
