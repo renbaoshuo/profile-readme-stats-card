@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Baoshuo's GitHub Stats, Rank: S</title>
-        <desc id="descId">Total Stars Earned: 1057, Total Commits  : 1057, Total Issues: 108, Total PRs: 435, Total PRs Reviewed: 375</desc>
+        <desc id="descId">Total Stars Earned: 1057, Total Commits  : 1057, Total Issues: 108, Total PRs: 435, Total PRs Reviewed: 376</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -205,7 +205,7 @@
         x="175" 
         y="12.5" 
         data-testid="prsreviewed"
-      >375</text>
+      >376</text>
     </g>
   </g>
     </svg> 
