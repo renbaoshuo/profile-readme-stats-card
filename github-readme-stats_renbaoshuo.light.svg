@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Baoshuo's GitHub Stats, Rank: S</title>
-        <desc id="descId">Total Stars Earned: 1073, Total Commits  : 1073, Total Issues: 111, Total PRs: 475, Total PRs Reviewed: 415</desc>
+        <desc id="descId">Total Stars Earned: 1074, Total Commits  : 1074, Total Issues: 111, Total PRs: 475, Total PRs Reviewed: 417</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -66,7 +66,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 48.556737101930395;
+        stroke-dashoffset: 48.547204973654054;
       }
     }
   
@@ -205,7 +205,7 @@
         x="175" 
         y="12.5" 
         data-testid="prsreviewed"
-      >415</text>
+      >417</text>
     </g>
   </g>
     </svg> 
